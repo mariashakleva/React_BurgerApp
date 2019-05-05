@@ -1,0 +1,42 @@
+.Input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Input label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.Input input, .Input select{
+    outline: none;
+    border: 1px solid gray;
+    background: white;
+    font: inherit;
+    padding: 5px 9px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Input input:focus{
+    background: #eaeaea;
+}
+
+.InputClasses{
+    outline: none;
+    border: 1px solid gray;
+    background: white;
+    font: inherit;
+    padding: 5px 9px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Invalid{
+    color: red;
+    font-weight: bold;
+    cursor: not-allowed;
+}
